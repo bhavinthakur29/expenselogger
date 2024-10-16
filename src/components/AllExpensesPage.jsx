@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ExpenseList from "./ExpenseList";
 
-const API_URL = "http://localhost:5000/api";S
+const API_URL = "http://localhost:5000/api";
 
 function AllExpensesPage() {
   const [expenses, setExpenses] = useState([]);
